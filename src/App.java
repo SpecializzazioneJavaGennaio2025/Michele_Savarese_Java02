@@ -21,14 +21,16 @@ public class App {
     // }
     public static void main(String[] args) throws Exception {
         // System.out.println();
-        Person p = new Person();
+        Person p = new Person("Maccaroni","Chees",63);
 //! Tramite la dot notation possiamo entrare all'interno di un oggetto.
-        p.name = "Andrea";
-        p.surname = "Nicoletta";
-        p.age = 18;
+
+
 
         p.introduceYourSelf();
+
+        // System.out.println(p);
     }
+
 
 
 }
